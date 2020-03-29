@@ -1,0 +1,14 @@
+<?php
+namespace Pulsestorm\Magento2\Cli\Baz_Bar;
+use function Pulsestorm\Pestle\Importer\pestle_import;
+pestle_import('Pulsestorm\Magento2\Cli\Library\output');
+
+/**
+* ALPHA: What is this?
+*
+* @command baz-bar
+*/
+function pestle_cli($argv)
+{
+    output("Hello Sailor");
+}
